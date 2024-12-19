@@ -1,0 +1,135 @@
+{
+    "language": "en",
+    "keyActive": "",
+    "version": "16.7.0",
+    "port": 3000,
+    "notiGroup": false,
+    "NOTIFICATION": false,
+    "DeveloperMode": false,
+    "autoCreateDB": false,
+    "allowInbox": false,
+    "accpetPending": false,
+    "iconUnsend": {
+        "status": true,
+        "icon": "❤"
+    },
+    "autoClear": [],
+    "adminOnly": false,
+    "duyetbox": false,
+    "encryptSt": false,
+    "UPTIME": 180167.04491070402,
+    "autoRestart": 0,
+    "commandDisabled": [
+        "cap.js"
+    ],
+    "eventDisabled": [
+        "",
+        ""
+    ],
+    "configApi": {
+        "domain": "https://api.blacksky04.repl.co"
+    },
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "KALUA BABU",
+    "PREFIX": "#",
+    "ADMINBOT": [
+        "100058415170590",
+        "100094547994769",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "NDH": [
+        "100058415170590",
+        "100094547994769",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "dharmendrastate.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": false,
+        "online": false
+    },
+    "antinamebot": {
+        "status": true
+    },
+    "cauca": {
+        "APIKEY": ""
+    },
+    "cave": {
+        "cooldownTime": 100000
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 50000
+    },
+    "fb": {
+        "API_KEY": "FI6bX3kC"
+    },
+    "help": {
+        "autoUnsend": true,
+        "delayUnsend": 220
+    },
+    "hunter": {
+        "userToken": "D7tTFhgD",
+        "adminToken": "ZkSy3UsT"
+    },
+    "loto": {
+        "maxPlayers": 10,
+        "getDelay": 8
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "poke": {
+        "APIKEY": ""
+    },
+    "rname": {
+        "APIKEY": "mi451266190"
+    },
+    "sim": {
+        "APIKEY": "API-1234-abcd-1234-abcd"
+    },
+    "sub": {
+        "APIKEY": ""
+    },
+    "work": {
+        "cooldownTime": 150000
+    },
+    "xidach": {
+        "maxPlayers": 5,
+        "normalWinBonus": 1,
+        "superWinBonus": 2,
+        "epicWinBonus": 4
+    },
+    "zombie": {
+        "cooldownTime": 1200000
+    },
+    "adminUpdate": {
+        "autoUnsend": "",
+        "sendNoti": true,
+        "timeToUnsend": 20
+    },
+    "log": {
+        "enable": true
+    }
+}

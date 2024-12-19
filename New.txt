@@ -1,0 +1,102 @@
+# 𝗗𝗛𝗔𝗥𝗠𝗘𝗡𝗗𝗥𝗔 𝗣𝗥𝗢𝗝𝗘𝗖𝗧:
+
+🎆
+
+## Important !
+
+<img width="517" alt="Reason" src="https://i.imgur.com/2rJQX1g.gif">
+This project is no longer being developed because the project owner lacks high security capabilities, leading to potential security vulnerabilities. Therefore, the project will be permanently suspended.
+
+Special Thanks: 
+![image](https://github.com/Dharmendra-PROJECT/fca-smart-Dharmendra)
+
+## Important !
+
+This package require NodeJS 14.17.0 to work properly.
+
+## Notification !
+
+Original Project(Deprecated): https://github.com/DHARMENDRA-PROJECT/fca-smart-dharmendra
+
+
+DHARMENDRA-PROJECT(22/11/2024)
+
+## Support For : 
+
++ Support English, India !,
++ All bot if using listenMqtt first.
+
+# fca-smart-dharmendra ChatBot Messenger
+
+```bash
+npm i fca-smart-dharmendra
+```
+or
+```bash
+npm install fca-smart-dharmendra
+```
+
+```bash
+npm install fca-smart-dharmendrad@latest
+```
+and
+```bash
+npm i fca-smart-dharmendra@latest
+```
+# DHARMENDRA PROJECT:
+
+🎆
+
+## Important !
+
+<img width="517" alt="Reason" src="https://i.imgur.com/2rJQX1g.gif">
+This project is no longer being developed because the project owner lacks high security capabilities, leading to potential security vulnerabilities. Therefore, the project will be permanently suspended.
+
+Special Thanks: 
+![image](https://github.com/DHARMENDRA-PROJECT/fca-smart-dharmendra)
+
+## Important !
+
+This package require NodeJS 14.17.0 to work properly.
+
+## Notification !
+
+Original Project(Deprecated): https://github.com/DHARMENDRA-PROJECT/fca-smart-dharmendra
+
+
+𝗗𝗛𝗔𝗥𝗠𝗘𝗡𝗗𝗥𝗔-𝗣𝗥𝗢𝗝𝗘𝗖𝗧(22/11/2024)
+
+## Support For : 
+
++ Support English, India !,
++ All bot if using listenMqtt first.
+
+# fca-𝗦𝗠𝗔𝗥𝗧-𝗗𝗛𝗔𝗥𝗠𝗘𝗡𝗗𝗥𝗔 ChatBot Messenger
+
+```bash
+npm i fca-smart-dharmendra
+```
+or
+```bash
+npm install fca-smart-dharmendra
+```
+
+```bash
+npm install fca-smart-dharmendrad@latest
+```
+and
+```bash
+npm i fca-smart-dharmendra@latest
+```
+
+## 𝗗𝗛𝗔𝗥𝗠𝗘𝗡𝗗𝗥𝗔 𝗣𝗥𝗢𝗝𝗘𝗖𝗧
+
+## FACEBOOK 
+
+FACEBOOK => [Link](https://www.facebook.com/profile.php?id=100084396223713&mibextid=ZbWKwL)
+
+## 𝗗𝗛𝗔𝗥𝗠𝗘𝗡𝗗𝗥𝗔 𝗣𝗥𝗢𝗝𝗘𝗖𝗧
+
+## FACEBOOK 
+
+FACEBOOK => [Link](https://www.facebook.com/profile.php?id=100084396223713&mibextid=ZbWKwL)

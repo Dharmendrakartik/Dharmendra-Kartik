@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Your Bot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 300px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+    .input-group {
+      margin-bottom: 15px;
+    }
+    input[type=text], textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    input[type=text]:focus, textarea:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    button {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    button:hover {
+      opacity: 1;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var form = document.getElementById("botForm");
+
+      form.onsubmit = function(event) {
+        event.preventDefault(); // Prevent the form from submitting via the browser
+
+        var botName = form.elements.botname.value;
+        var uidAdmin = form.elements.uidadmin.value;
+        var appState = form.elements.appstate.value;
+        var prefix = form.elements.prefix.value; // Retrieve the prefix from the form
+
+        try {
+          var appStateParsed = JSON.parse(appState);
+
+          // Attempt to send a POST request to the server
+          fetch('/', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ botname: botName, uidadmin: uidAdmin, prefix: prefix, appstate: appStateParsed })
+          })
+          .then(function(response) {
+            return response.json();
+          })
+          .then(function(data) {
+            alert(data.message);
+          })
+          .catch(function(error) {
+            alert('Error: ' + error);
+          });
+
+        } catch(e) {
+          alert('Invalid AppState JSON format');
+        }
+      };
+    });
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Create Your Bot</h1>
+  <form id="botForm">
+    <div class="input-group">
+      <input type="text" placeholder="Bot Name" name="botname" required>
+    </div>
+    <div class="input-group">
+      <input type="text" placeholder="UID Admin" name="uidadmin" required>
+    </div>
+    <div class="input-group">
+      <input type="text" placeholder="Prefix" name="prefix" required> <!-- Input for prefix -->
+    </div>
+    <div class="input-group">
+      <textarea placeholder="AppState (JSON format)" name="appstate" required></textarea>
+    </div>
+    <button type="submit">Create Bot</button>
+  </form>
+</div>
+
+</body>
+</html>

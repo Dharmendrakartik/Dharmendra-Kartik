@@ -1,0 +1,15 @@
+services:
+  - name: dharmendra-bot
+    runtime: node
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    region: oregon
+    branch: main
+    envVars:
+      XDG_CONFIG_HOME: "/home/render/.config"
+      PATH: "/home/render/.config/npm/node_global/bin:/home/render/node_modules/.bin"
+      npm_config_prefix: "/home/render/.config/npm/node_global"
+    extraPorts:
+      - internalPort: 80
+        externalPort: 80
